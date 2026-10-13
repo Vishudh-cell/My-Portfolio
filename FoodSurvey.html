@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Food Questionnaire</title>
+</head>
+<body>
+
+    <p><a href="projects.html">Back to Projects</a></p>
+
+    <h2>Food Habits Survey</h2>
+    <p>Please answer the following questions.</p>
+
+    <form>
+        <p>1. Enter your name:</p>
+        <input type="text" placeholder="Your name">
+
+        <p>2. Which meal do you like the most?</p>
+        <input type="radio" name="meal" value="Breakfast"> Breakfast
+        <input type="radio" name="meal" value="Lunch"> Lunch
+        <input type="radio" name="meal" value="Dinner"> Dinner
+
+        <p>3. What is your favourite drink?</p>
+        <select name="drink">
+            <option>Tea</option>
+            <option>Coffee</option>
+            <option>Juice</option>
+            <option>Milkshake</option>
+            <option>Water</option>
+        </select>
+
+        <p>4. What do you enjoy eating?</p>
+        <input type="checkbox" name="food" value="Sweets"> Sweets
+        <input type="checkbox" name="food" value="Snacks"> Snacks
+        <input type="checkbox" name="food" value="Fruits"> Fruits
+        <input type="checkbox" name="food" value="Fast Food"> Fast Food
+
+        <p>5. How would you rate your eating habits?</p>
+        <input type="radio" name="rating" value="Excellent"> Excellent
+        <input type="radio" name="rating" value="Good"> Good
+        <input type="radio" name="rating" value="Average"> Average
+        <input type="radio" name="rating" value="Poor"> Poor
+
+        <p>6. What food would you like to try?</p>
+        <input type="text" name="newfood">
+
+        <p>7. Share your feedback about food:</p>
+        <textarea name="feedback" rows="3" cols="30"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Send Answers">
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+</body>
+</html>
